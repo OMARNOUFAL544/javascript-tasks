@@ -1,4 +1,7 @@
-onload = function() {
+onload = function() 
+
+
+   {
     document.write(typeof(100) + "<br>");
     document.write(typeof(73.9) + "<br>");
     document.write(typeof(NaN) + "<br>");
@@ -19,15 +22,5 @@ onload = function() {
     document.write(typeof (Infinity)    + "<br>");
     document.write(1 == '1'   + "<br>");
     document.write(1 === '1');
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     }
